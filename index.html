@@ -1386,7 +1386,172 @@ License: For each use you must have a valid license purchased only from above li
 						<div class="post d-flex flex-column-fluid" id="kt_post">
 							<!--begin::Container-->
 							<div id="kt_content_container" class="container-xxl">
-
+								<!--begin::Table-->
+								<!--begin::Col-->
+								<div class="col-xl-12 mb-5 mb-xl-10">
+									<!--begin::Table Widget 4-->
+									<div class="card card-flush h-xl-100">
+										<!--begin::Card header-->
+										<div class="card-header pt-7">
+											<!--begin::Title-->
+											<h3 class="card-title align-items-start flex-column">
+												<span class="card-label fw-bold text-gray-800">月統計資訊</span>
+												<span class="text-gray-400 mt-1 fw-semibold fs-6">每日平均值</span>
+											</h3>
+											<!--end::Title-->
+											<!--begin::Actions-->
+											<div class="card-toolbar">
+												<!--begin::Filters-->
+												<div class="d-flex flex-stack flex-wrap gap-4">
+													<!--begin::Destination-->
+													<div class="d-flex align-items-center fw-bold">
+														<!--begin::Label-->
+														<div class="text-gray-400 fs-7 me-2">型號</div>
+														<!--end::Label-->
+														<!--begin::Select-->
+														<select class="form-select form-select-transparent text-graY-800 fs-base lh-1 fw-bold py-0 ps-3 w-auto" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option">
+															<option></option>
+															<option value="all" selected="selected">ALL</option>
+															<option value="jbd1">JBD1</option>
+															<option value="czm1">CZM1</option>
+														</select>
+														<!--end::Select-->
+													</div>
+													<!--end::Destination-->
+													<!--begin::Status-->
+													<div class="d-flex align-items-center fw-bold">
+														<!--begin::Label-->
+														<div class="text-gray-400 fs-7 me-2">編號</div>
+														<!--end::Label-->
+														<!--begin::Select-->
+														<select class="form-select form-select-transparent text-dark fs-7 lh-1 fw-bold py-0 ps-3 w-auto" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-kt-table-widget-4="filter_status">
+															<option></option>
+															<option value="jbd1-001" selected="selected">JBD1-001</option>
+															<option value="jbd1-002">JBD1-002</option>
+															<option value="jbd1-003">JBD1-003</option>
+															<option value="czm1-001">CZM1-001</option>
+															<option value="czm1-002">CZM1-002</option>
+														</select>
+														<!--end::Select-->
+													</div>
+													<!--end::Status-->
+												</div>
+												<!--begin::Filters-->
+											</div>
+											<!--end::Actions-->
+										</div>
+										<!--end::Card header-->
+										<!--begin::Card body-->
+										<div class="card-body pt-2 table-responsive">
+											<!--begin::Table-->
+											<table class="table align-middle table-row-dashed fs-6 gy-3" id="kt_table_widget_4_table">
+												<!--begin::Table head-->
+												<thead>
+													<!--begin::Table row-->
+													<tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
+														<th class="text-center min-w-100px">日期</th>
+														<th class="text-center min-w-100px">用電量(kWh)</th>
+														<th class="text-center min-w-125px">溫度 &#176;C</th>
+														<th class="text-center min-w-100px">電壓(V)</th>
+														<th class="text-center min-w-100px">電流(A)</th>
+														<th class="text-center min-w-50px">剩餘容量</th>
+													</tr>
+													<!--end::Table row-->
+												</thead>
+												<!--end::Table head-->
+												<!--begin::Table body-->
+												<tbody class="fw-bold text-gray-600">
+													<tr>
+														<td class="text-center">11/01(二)</td>
+														<td class="text-center">840.00</td>
+														<td class="text-center">25.2 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.3</td>
+														<td class="text-center">800</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/02(三)</td>
+														<td class="text-center">840.60</td>
+														<td class="text-center">25.1 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.2</td>
+														<td class="text-center">813</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/03(四)</td>
+														<td class="text-center">878.00</td>
+														<td class="text-center">25.1 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.4</td>
+														<td class="text-center">800</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/04(五)</td>
+														<td class="text-center">882.00</td>
+														<td class="text-center">25.6 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.1</td>
+														<td class="text-center">815</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/05(六)</td>
+														<td class="text-center">515.00</td>
+														<td class="text-center">25.1 &#176;C</td>
+														<td class="text-center">110.3</td>
+														<td class="text-center">1.3</td>
+														<td class="text-center">800</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/06(日)</td>
+														<td class="text-center">556.40</td>
+														<td class="text-center">25.5 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.3</td>
+														<td class="text-center">818</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/07(一)</td>
+														<td class="text-center">779.60</td>
+														<td class="text-center">25.1 &#176;C</td>
+														<td class="text-center">110.4</td>
+														<td class="text-center">1.1</td>
+														<td class="text-center">800</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/08(二)</td>
+														<td class="text-center">843.40</td>
+														<td class="text-center">25.7 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.3</td>
+														<td class="text-center">819</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/09(三)</td>
+														<td class="text-center">920.60</td>
+														<td class="text-center">25.1 &#176;C</td>
+														<td class="text-center">110.2</td>
+														<td class="text-center">1.5</td>
+														<td class="text-center">800</td>
+													</tr>
+													<tr>
+														<td class="text-center">11/10(四)</td>
+														<td class="text-center">969.00</td>
+														<td class="text-center">25.9 &#176;C</td>
+														<td class="text-center">110.3</td>
+														<td class="text-center">1.3</td>
+														<td class="text-center">815</td>
+													</tr>
+												</tbody>
+												<!--end::Table body-->
+											</table>
+											<!--end::Table-->
+										</div>
+										<!--end::Card body-->
+									</div>
+									<!--end::Table Widget 4-->
+								</div>
+								<!--end::Col-->
+								<!--end::Table-->
 								<div class="col-xxl-12 mb-5 mb-xl-10">
 								<!--begin::Col-->
 								<!--begin::用電量、剩餘容量 widget-23-->
